@@ -27,5 +27,3 @@ Includes
 
 Summary
 Minimal, clean Terraform project for learning and portfolio use.
-
-
