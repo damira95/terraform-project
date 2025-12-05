@@ -1,8 +1,6 @@
-# Terraform EC2 Project
-
 Simple Terraform setup that deploys an EC2 instance using a module.
 
-## Structure
+Structure
 .
 ├── main.tf
 ├── providers.tf
@@ -15,23 +13,19 @@ Simple Terraform setup that deploys an EC2 instance using a module.
         ├── variables.tf
         └── outputs.tf
 
-
-## Commands
+Commands
 terraform init
 terraform plan
 terraform apply
 terraform output
 terraform destroy
 
-## Includes
-- EC2 instance  
-- Security Group (SSH)  
-- Reusable module  
+Includes
+- EC2 instance
+- Security Group (SSH)
+- Reusable module
 
-## Summary
+Summary
 Minimal, clean Terraform project for learning and portfolio use.
-
-
-
 
 
