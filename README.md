@@ -10,10 +10,10 @@ Simple Terraform setup that deploys an EC2 instance using a module.
 ├── outputs.tf
 ├── terraform.tfvars
 └── modules/
-└── ec2/
-├── main.tf
-├── variables.tf
-└── outputs.tf
+    └── ec2/
+        ├── main.tf
+        ├── variables.tf
+        └── outputs.tf
 
 ## Commands
 terraform init
@@ -29,3 +29,5 @@ terraform destroy
 
 ## Summary
 Minimal, clean Terraform project for learning and portfolio use.
+
+
